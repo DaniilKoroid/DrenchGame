@@ -13,21 +13,8 @@ Each tile is connected with it's top, bottom, left and right neighbour tile.
 On each turn you choose color, and all neighbour tiles that have such color and no owner become yours.
 You can choose all colors that are not used by you or your opponents.
 
-GAME WINDOW:
-Game window has two parts - pole part and color choosing part
-Pole part - displays current pole state.
-Pole - is an two-dimensional array of tiles. Each tile has it's owner, color and position.
-Color choosing part - displays colors that you can choose.
+GAME WINDOW: Game window has two parts - pole part and color choosing part. Pole part - displays current pole state. Pole - is an two-dimensional array of tiles. Each tile has it's owner, color and position. Color choosing part - displays colors that you can choose.
 
-MODES:
-Game has two modes:
--"Singleplayer"
--"Play versus bots"
+MODES: Game has two modes: "Singleplayer" and "Play versus bots"
 
-GOAL:
-Your main goal is simple: capture the whole pole!
-But, depending on the game mode, your goal slightly changes.
-In "Singleplayer" mode:
--Capture the whole pole with minimum number of moves
-In "Play versus bots" mode:
--Capture more tiles, then your opponent
+GOAL: Your main goal is simple: capture the whole pole! But, depending on the game mode, your goal slightly changes. In "Singleplayer" mode you have to capture the whole pole with minimum number of moves. In "Play versus bots" mode you have to capture more tiles, then your opponents.
